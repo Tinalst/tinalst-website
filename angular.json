@@ -11,7 +11,13 @@
       "schematics": {
         "@schematics/angular:component": {
           "styleext": "scss"
-        }
+        },
+          "routing": {
+              "type": "boolean",
+              "description": "Generates a routing module.",
+              "default": false,
+              "x-prompt": "Would you like to add Angular routing?"
+          }
       },
       "architect": {
         "build": {
@@ -41,6 +47,11 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+                "budgets": [{
+                    "type": "initial",
+                    "maximumWarning": "200kb",
+                    "maximumError": "500kb"
+                }],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,

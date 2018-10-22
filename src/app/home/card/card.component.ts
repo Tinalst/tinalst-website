@@ -1,5 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {s, st} from '@angular/core/src/render3';
 import {WorkModel} from '../../public/model/work.model';
 
 @Component({
