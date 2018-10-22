@@ -1,0 +1,12 @@
+/**
+使用说明：
+  功能： 根据不同分辨率自动选择加载相应的背景图片
+  使用方式：
+    @import 该文件
+    @include responsiveBg（'资源路径截止于文件名@之前'）
+      例如： bg.png | bg@2x.png | bg@3x 则之传入路径'bg'
+ */
+@mixin resposiveBg($url) {
+    background-image: url('#{$url}.png');
+    background-image: image-set(url('#{$url}.png') 1x,url('#{$url}@2x.png') 2x,url('#{$url}@3x.png') 3x);
+}

@@ -1,0 +1,29 @@
+@import '../../../assets/style/mixin';
+.card {
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(30, 45,62, .09);
+    transition: box-shadow .2s;
+    height: 100%;
+}
+.card-img {
+    background-color: var(--grey-light);
+    //height: 258px;
+    max-height: 150px;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-content {
+    padding: 30px;
+    .time {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--grey-light);
+    }
+    p {
+        color: var(--grey);
+    }
+}

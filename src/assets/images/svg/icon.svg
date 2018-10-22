@@ -1,0 +1,18 @@
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <defs>
+    <linearGradient x1="17.2026755%" y1="89.0999448%" x2="84.0594764%" y2="23.2040858%" id="linearGradient-1">
+      <stop stop-color="#8FBBE4" offset="0%"></stop>
+      <stop stop-color="#99A3E8" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="favicon" fill-rule="nonzero">
+      <path d="M20,0 C8.954,0 0,8.954 0,20 C0,31.046 8.954,40 20,40 C31.046,40 40,31.046 40,20 C40,8.954 31.046,0 20,0 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+    </g>
+      <g id="layer101" fill="#ffffff" stroke="none" transform="scale(0.025, 0.025)translate(350,350)">
+          <path d="M164 944 c-25 -12 -54 -49 -54 -69 0 -1 17 -1 38 2 34 5 41 1 72 -33 63 -72 139 -261 223 -554 l24 -85 -41 -8 c-72 -14 -247 -4 -285 16 -42 21 -41 21 -41 -3 0 -27 72 -100 101 -102 13 -1 158 -2 321 -3 224 0 300 -3 309 -13 25 -24 39 -14 39 31 -1 77 -34 97 -163 97 l-94 0 -47 147 c-54 167 -125 346 -163 413 -80 140 -167 200 -239 164z"/>
+      </g>
+  </g>
+
+</svg>

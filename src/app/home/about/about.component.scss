@@ -1,0 +1,19 @@
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description-me {
+    p {
+        //text-indent: 2em;
+        font-size: 14px;
+    }
+}
+.pics {
+    background: url("../../../assets/images/pics/002.jpg");
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.note {
+    min-height: calc(100vh - 153px);
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-img">
+        <app-responsive-image [imageUrl]="imageUrl"></app-responsive-image>
+    </div>
+    <div class="car-content">
+        <div class="time">
+            <span>{{workDatas.finish_time}}</span>
+            <h3>{{workDatas.title}}</h3>
+            <p *ngFor="let des of workDatas.description">{{des}}</p>
+        </div>
+    </div>
+</div>

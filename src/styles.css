@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #99a3e8;
+    --primary-dark: #607cc7;
+    --black: #27303b;
+    --grey: #526173;
+    --grey-light: #a3afbf;
+    --grey-bg: #f5f7f9;
+}
+body {
+    font-size: 18px;
+    color: var(--grey);
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5 { color: var(--black);}
